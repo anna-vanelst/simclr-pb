@@ -1,4 +1,4 @@
-# PAC-Bayesian Risk Certificates Contrastive Learning
+# Tight PAC-Bayesian Risk Certificates Contrastive Learning
 
 This repository contains the official implementation of the experiments and figures in our paper.
 You can find the preprint [here](https://arxiv.org/pdf/2412.03486?).
@@ -43,3 +43,4 @@ contrastive learning models, using bounds like Catoni, kl, classic, McDiarmid-Mc
 
 
 - `run.ipynb` is a notebook used to set the experiment settings and run experiments. 
+
