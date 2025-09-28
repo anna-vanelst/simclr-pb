@@ -1,4 +1,20 @@
-# Code Appendix
+# PAC-Bayesian Risk Certificates Contrastive Learning
+
+This repository contains the official implementation of the experiments and figures in our paper.
+You can find the preprint [here](https://arxiv.org/pdf/2412.03486?).
+
+## Citation
+
+If you find this work useful, please consider citing our paper:
+
+```bibtex
+@article{van2024tight,
+  title={Tight pac-bayesian risk certificates for contrastive learning},
+  author={Van Elst, Anna and Ghoshdastidar, Debarghya},
+  journal={To appear in SIAM Journal on Mathematics of Data Science (SIMODS)},
+  year={2024}
+}
+```
 
 ## Modules 
 
@@ -24,5 +40,6 @@ contrastive learning models, using bounds like Catoni, kl, classic, McDiarmid-Mc
 - `transfer_bound.py` provides classes and methods to compute an upper-bound on the linear classifier loss based on contrastive loss. 
 
 - `run.py` manages experiments with the `ExperimentRunner` class, including methods for training prior and posterior models.
+
 
 - `run.ipynb` is a notebook used to set the experiment settings and run experiments. 
